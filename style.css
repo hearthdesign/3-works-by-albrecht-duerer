@@ -1,1 +1,21 @@
+html {
+    font-size: rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+body {
+    background-color: #011e09;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 8rem;
+    color:cornsilk;
+    width: 110%;
+    background-color: #011925;
+    height: 10rem;
+    border: 0;
+}

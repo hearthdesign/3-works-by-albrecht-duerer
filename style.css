@@ -63,7 +63,7 @@ button {
     justify-content: center;
     height: 2.5rem;
     background: linear-gradient(to bottom, rgba(248, 246, 246, 0.8), rgba(255, 7, 7, 0.2));
-    background-color: rgb(254, 180, 76);
+    background-color: rgb(246, 219, 181);
     border: 1px solid #ffffff;
     border-radius: 0.5rem;
     color: rgb(45, 28, 2);
@@ -85,8 +85,6 @@ button:hover {
         }
     }
 
-
-
 .bio_author {
   text-align: right;
   font-style: italic;
@@ -107,9 +105,7 @@ button:hover {
     height: auto;
     border-radius: 0.8rem;
     text-align:justify;
-
     text-justify: inter-word;
-    
     line-height: 1.7rem;
 }
 
@@ -121,23 +117,32 @@ button:hover {
     text-indent: 2rem;
 }
 
-
- 
-
-    .box_pict {
+.box_pict {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 2rem auto;
   padding: 1rem;
+
   max-width: 100%;
   box-sizing: border-box;
 }
 
+#monogram {
+      width: 100%;
+  max-width: 15rem;
+  height: 15rem;
+  display: block;
+  margin: 6rem auto;
+  background-color: #d6fae0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 
 .box_pict img {
   width: 100%;
+  min-width: 9rem;
   max-width: 600px;
   height: auto;
   display: block;

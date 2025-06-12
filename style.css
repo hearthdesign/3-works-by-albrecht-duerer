@@ -50,7 +50,7 @@ header {
 }
 
 a:visited{
-    color:rgb(1, 42, 48);
+    color:rgb(224, 250, 254);
 }
 
 button {
@@ -62,26 +62,26 @@ button {
     min-width: 8rem;
     justify-content: center;
     height: 2.5rem;
-    background: linear-gradient(to bottom, rgba(248, 246, 246, 0.8), rgba(255, 7, 7, 0.2));
-    background-color: rgb(246, 219, 181);
+    background: linear-gradient(to bottom, rgba(248, 246, 246, 0.5), rgba(255, 7, 7, 0.4));
+    background-color: #6d0114 ;
     border: 1px solid #ffffff;
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     color: rgb(45, 28, 2);
-    box-shadow: 0 16px 12px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 16px 12px rgba(179, 14, 14, 0.5);
     padding: 0rem;
     font-weight: bold;
     margin: 0rem;
     cursor: pointer;
-    transition: background-color 0.5s ease, box-shadow 0.3s ease, transform 0.5s ease;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
 }
 
 button:hover {
-    background-color: #31020b;
-    box-shadow: 0 20px 16px rgba(0, 0, 0, 0.3);
-    color: white;
+    background-color:  rgb(230, 142, 18);
+    box-shadow: 0 20px 16px rgba(5, 46, 211, 0.4);
+    color: rgb(4, 59, 67);
     transform: scale(1.05);
     a:visited{
-    color:rgb(255, 255, 255);
+    color:rgb(55, 1, 70);
         }
     }
 

@@ -12,12 +12,15 @@ body {
 h1,
 h2,
 h3,
-p,
 footer {
     text-align: center;
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     box-sizing: border-box;
     margin: 0;
     padding: 8rem;
@@ -26,6 +29,7 @@ header {
     background-color: #011925;
     height: 10rem;
     border: 0;
+
 }
 
 
@@ -80,3 +84,39 @@ button:hover {
     color:rgb(255, 255, 255);
         }
     }
+
+
+
+.bio_author {
+  text-align: right;
+  font-style: italic;
+  margin-top: 1em;
+} 
+
+.bio_main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.5rem 2rem 2rem;
+    margin: 1rem 0;
+    background-color:  #d6fae0;;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 5rem;
+    height: auto;
+    border-radius: 0.8rem;
+    text-align:justify;
+
+    text-justify: inter-word;
+    
+    line-height: 1.7rem;
+}
+
+#bio_title {
+    align-content: center;
+}
+
+.bio_text {
+    text-indent: 2rem;
+}

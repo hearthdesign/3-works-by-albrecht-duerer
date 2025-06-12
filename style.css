@@ -120,3 +120,21 @@ button:hover {
 .bio_text {
     text-indent: 2rem;
 }
+
+
+    .box_knight {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        padding: 10px;
+        margin-top: 1rem;
+        border: 1px solid #ccc;
+    }
+
+    .box_knight #knight {
+        margin-top: 0rem;
+        max-width: 100%;
+        height: auto;
+    }

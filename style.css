@@ -189,6 +189,11 @@ main {
     z-index: 1;
 }
 
+.overlay {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .hover1, .hover2, .hover3 {
     z-index: 2;
 }
@@ -205,8 +210,42 @@ main {
 .hotspot2 { left: 33%; top:55%; }
 .hotspot3 { left: 66%; }
 
+.div_p {
+    display: none;
+    position: absolute;
+    width: 15rem;
+    flex-wrap: wrap;
+    height: min-content;
+    color: #011925;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    padding: 1rem;
+    z-index: 5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 .hotspot1:hover ~ .hover1,
 .hotspot2:hover ~ .hover2,
 .hotspot3:hover ~ .hover3 {
   opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .image-section {
+    max-width: 800px;
+  }
+}
+
+.div_p {
+    display: none;
+    position: absolute;
+    width: 15rem;
+    flex-wrap: wrap;
+    height: min-content;
+    color: #011925;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    padding: 1rem;
+    z-index: 5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }

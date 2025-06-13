@@ -29,9 +29,7 @@ header {
     background-color: #011925;
     height: 6rem;
     border: 0;
-
 }
-
 
 .menu {
     display: flex;
@@ -129,9 +127,9 @@ button:hover {
 }
 
 #monogram {
-      width: 100%;
-  max-width: 15rem;
-  height: 15rem;
+    width: 100%;
+  max-width:20rem;
+  height: 20rem;
   display: block;
   margin: 6rem auto;
   background-color: #d6fae0;
@@ -154,11 +152,13 @@ button:hover {
   margin-top: 1rem;
   text-align: center;
   color: #011925;
-  font-size: 0.95rem;
+  font-size: 1rem;
+  font-style: bold;
 }
 
 .works_main {
     color: #011925;
+justify-content: space-between;
 }
 
 .audio_section {
@@ -168,7 +168,7 @@ button:hover {
 }
 
 .img_section {
-    position:relative;
+    position: relative;
     width: 100%;
     max-width: 40rem;
     margin: auto;
@@ -183,6 +183,8 @@ button:hover {
     height: auto;
     object-fit: cover;
     transition: opacity 0.3s ease;
+    margin-top: 7rem;
+    margin-bottom: 1rem
 }
 
 .overlay {
@@ -230,9 +232,22 @@ button:hover {
     background-color: antiquewhite;
     border-radius: 1rem;
     padding: 1rem;
-    margin: 5rem 5rem;
+    margin: 5rem 6rem;
 }
 
 .phover3 {
     color:#011925;
+}
+
+.audio_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.work_description {
+    color:#d6fae0;
+    font-size: 1.5rem;
+    margin: 7rem
 }

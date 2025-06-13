@@ -1,5 +1,5 @@
 html {
-    font-size: rem;
+    font-size: 0.8rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -124,7 +124,6 @@ button:hover {
   flex-direction: column;
   margin: 2rem auto;
   padding: 1rem;
-
   max-width: 100%;
   box-sizing: border-box;
 }

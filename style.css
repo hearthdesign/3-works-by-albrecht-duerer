@@ -79,9 +79,9 @@ button:hover {
     background-color:  rgb(230, 142, 18);
     box-shadow: 0 20px 16px rgba(5, 46, 211, 0.4);
     color: rgb(4, 59, 67);
-    transform: scale(1.05);
+    transform: scale(1.052);
     a:visited{
-    color:rgb(55, 1, 70);
+        color:rgb(55, 1, 70);
         }
     }
 

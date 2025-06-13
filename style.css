@@ -184,3 +184,11 @@ main {
     object-fit: cover;
     transition: opacity 0.3s ease;
 }
+
+.base_img {
+    z-index: 1;
+}
+
+.hover1, .hover2, .hover3 {
+    z-index: 2;
+}

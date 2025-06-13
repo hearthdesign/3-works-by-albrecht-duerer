@@ -192,3 +192,21 @@ main {
 .hover1, .hover2, .hover3 {
     z-index: 2;
 }
+
+.hotspot {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 33.33%;
+    z-index:3;
+}
+
+.hotspot1 { left: 0; }
+.hotspot2 { left: 33%; top:55%; }
+.hotspot3 { left: 66%; }
+
+.hotspot1:hover ~ .hover1,
+.hotspot2:hover ~ .hover2,
+.hotspot3:hover ~ .hover3 {
+  opacity: 1;
+}

@@ -51,7 +51,7 @@ a:visited{
     color:rgb(224, 250, 254);
 }
 
-button {
+.nav-button {
     display: flex;
     flex: 0 1 auto;
     box-sizing: border-box;
@@ -73,15 +73,16 @@ button {
     transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
 }
 
-button:hover {
+.nav-button:hover {
     background-color:  rgb(230, 142, 18);
     box-shadow: 0 20px 16px rgba(5, 46, 211, 0.4);
     color: rgb(4, 59, 67);
     transform: scale(1.052);
-    a:visited{
-        color:rgb(55, 1, 70);
-        }
     }
+
+.nav-button:visited {
+    color: rgb(55, 1, 70);
+}
 
 .bio_author {
   text-align: right;

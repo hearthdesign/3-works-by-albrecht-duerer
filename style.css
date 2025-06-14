@@ -230,6 +230,11 @@ a:visited{
     z-index: 2;
 }
 
+#gourd_text{
+    overflow: scroll;
+    height:max-content;
+}
+
 .hotspot {
     position: absolute;
     top: 0;

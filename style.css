@@ -230,11 +230,6 @@ a:visited{
     z-index: 2;
 }
 
-#gourd_text{
-    overflow: scroll;
-    height:max-content;
-}
-
 .hotspot {
     position: absolute;
     top: 0;
@@ -243,9 +238,10 @@ a:visited{
     z-index:3;
 }
 
-.hotspot1 { left: 20% ; }
-.hotspot2 { left: 37%; top:15%; }
-.hotspot3 { left: 70.66%;  }
+.hotspot1 { left: 15%; top: 30%; bottom:40%; width: 11rem;
+  height: 20rem; }
+.hotspot2 { left: 35%; top:65%; width: 20rem; height: 11rem;}
+.hotspot3 { left: 70.66%; top:25%; width: 9rem; height: 20rem; }
 
 .hotspot1:hover ~ .hover1,
 .hotspot2:hover ~ .hover2,

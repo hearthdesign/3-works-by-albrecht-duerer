@@ -140,10 +140,24 @@ a:visited{
   max-width:20rem;
   height: 20rem;
   display: block;
-  margin: 6rem auto;
+  margin: 3rem auto 4rem;
   background-color: #d6fae0;
   border-radius: 1rem;
   
+}
+
+.instructions {
+    font-size: 1rem;
+    display:flex;
+    flex-direction:column ;
+    color: white;
+    background-color: #00151f;
+    margin: 0ß;
+    border: 2px #004710;
+    border-radius: 2rem;
+    padding: 1.5rem 2rem 2rem 3rem;
+    border: 1rem solid #d6fae0;
+    
 }
 
 .box_pict img {

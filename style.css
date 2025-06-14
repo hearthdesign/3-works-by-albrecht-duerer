@@ -102,7 +102,7 @@ a:visited{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 1.5rem 2rem 2rem;
+    padding:  2rem 4% 4% 3rem;
     margin: 1rem 0;
     background-color:  #d6fae0;;
     justify-content: space-between;
@@ -114,6 +114,7 @@ a:visited{
     text-align:justify;
     text-justify: inter-word;
     line-height: 1.7rem;
+    font-size: 1.5rem;
 }
 
 #bio_title {
@@ -161,6 +162,7 @@ a:visited{
     text-align:justify;
     text-justify: inter-word;
     line-height: 2.5rem;
+    text-indent: 2rem;
 }
 
 #linkarticle {

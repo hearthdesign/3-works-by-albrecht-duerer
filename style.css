@@ -61,10 +61,10 @@ a:visited{
     justify-content: center;
     height: 2.5rem;
     background: linear-gradient(to bottom, rgba(248, 246, 246, 0.6), rgba(15, 87, 1, 0.301));
-    background-color: #003f0e ;
+    background-color: #004710 ;
     border: 1px solid #ffffff;
     border-radius: 0.9rem;
-    color: rgb(45, 28, 2);
+    color: rgb(240, 211, 166);
     box-shadow: 0 16px 12px rgba(179, 14, 14, 0.5);
     padding: 0rem;
     font-weight: bold;
@@ -81,13 +81,15 @@ a:visited{
     }
 
 .nav-button:visited {
-    color: rgb(55, 1, 70);
+    color: rgb(253, 240, 221);
 }
 
 #active {
-  color: white;
+  color: rgb(241, 255, 170);
   font-weight: bold;
-  border-bottom: 2px solid orange;
+  border: 1px solid rgb(255, 106, 0);
+  border-bottom: 3px solid orange;
+  
 }
 
 .bio_author {
@@ -215,9 +217,9 @@ a:visited{
     z-index:3;
 }
 
-.hotspot1 { left: 0; }
-.hotspot2 { left: 33%; top:55%; }
-.hotspot3 { left: 70.66%; }
+.hotspot1 { left: 20% ; }
+.hotspot2 { left: 37%; top:15%; }
+.hotspot3 { left: 70.66%;  }
 
 .hotspot1:hover ~ .hover1,
 .hotspot2:hover ~ .hover2,

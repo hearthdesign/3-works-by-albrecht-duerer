@@ -84,6 +84,12 @@ a:visited{
     color: rgb(55, 1, 70);
 }
 
+#active {
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid orange;
+}
+
 .bio_author {
   text-align: right;
   font-style: italic;
@@ -128,7 +134,7 @@ a:visited{
 }
 
 #monogram {
-    width: 100%;
+  width: 100%;
   max-width:20rem;
   height: 20rem;
   display: block;
@@ -158,8 +164,8 @@ a:visited{
 }
 
 .works_main {
-    color: #011925;
-justify-content: space-between;
+  color: #011925;
+  justify-content: space-between;
 }
 
 .audio_section {
@@ -224,6 +230,7 @@ justify-content: space-between;
     max-width: 800px;
   }
 }
+
 .div_p {
     display: flex;
     position: relative;

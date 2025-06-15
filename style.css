@@ -274,6 +274,9 @@ a:visited{
 .audio_section {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    color: #d6fae0;
+    font-size: 1.2rem;
     align-items: center;
     margin-top: 0;
 }

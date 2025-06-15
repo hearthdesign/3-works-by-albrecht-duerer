@@ -8,7 +8,6 @@ When users move their cursor over specific areas of the images, coloured version
 
 <div align="center"> <img src="https://github.com/user-attachments/assets/33f971f4-6a52-430a-b893-f25ec50a73a7" width="70%"> </div>
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/1f27194b-2f31-4e79-b13d-c00d6ab49eda" width="70%"> </div>
 
 Emotional Soundscapes
 To further enhance the atmosphere, I developed a music player integrated directly into the website. The selected pieces aim to reflect the emotional tone of each artwork, adding a layer of sensory engagement to the viewing experience.
@@ -18,7 +17,7 @@ The website is built with semantic HTML elements, improving both accessibility a
 
 A fixed navigation menu appears at the top of every page. The menu contains animated buttons that respond to user actions by changing colour and size, making navigation intuitive and visually engaging.
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/0e71afc8-554c-4665-89eb-3044772bb8ee" width="70%"> </div>
+
 
 
 ## Technical Considerations
@@ -28,7 +27,6 @@ All images were resized and saved in PNG format instead of SVG, maintaining qual
 A universal typeface was chosen for consistency and reliability across platforms.
 The layout employs flexbox, adaptive containers, and percentage-based dimensions to ensure excellent responsiveness on all screen sizes.
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/f4400020-4087-403c-a244-76408a69a2c9" width="70%"> </div>
 
 <div align="center"> <img src="https://github.com/user-attachments/assets/f817d9b0-aa43-4184-b370-b845446876a2" width="70%"> </div>
 

@@ -280,3 +280,9 @@ a:visited{
     align-items: center;
     margin-top: 0;
 }
+
+#figcation_main{
+    color: rgb(229, 240, 202); 
+    font-size:1rem;
+    margin-bottom: 5rem;
+} 

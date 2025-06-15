@@ -125,7 +125,7 @@ a:visited{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 2rem auto;
+  margin: 1rem auto;
   padding: 1rem;
   max-width: 100%;
   box-sizing: border-box;
@@ -280,4 +280,4 @@ a:visited{
 #figcation_main{
     color: rgb(229, 240, 202); 
     font-size:1rem;
-} 
+}

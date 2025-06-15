@@ -1,14 +1,29 @@
 # Three Works by Albrecht Dürer
 This website presents three engravings by the German Renaissance master Albrecht Dürer (1471–1528). Designed to engage audiences of all ages, the site offers an interactive, multimedia experience that brings these classic works to life.
+---
 
+![Screenshot 2025-06-15 111436](https://github.com/user-attachments/assets/ea310cc0-deae-47ba-be4d-ce40fb4e82a9)
+
+---
+##Instructions
+---
+
+![Screenshot 2025-06-15 105910](https://github.com/user-attachments/assets/7fd38170-194c-45bc-8731-56a25a4e0eb3)
+
+---
 ## Interactive Colourization and Animation
 To create a more immersive experience, I partially colourized one of the black-and-white engravings using Photoshop. I then incorporated HTML and CSS animations, primarily through the use of the :hover pseudo-class and manipulation of the z-axis.
 
 When users move their cursor over specific areas of the images, coloured versions of figures or accompanying text overlays appear—bringing new depth to the static artworks.
+---
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/33f971f4-6a52-430a-b893-f25ec50a73a7" width="70%"> </div>
+![Screenshot 2025-06-15 112937](https://github.com/user-attachments/assets/5e9163c1-9787-499a-a0a6-3cf416c2f9f6)
 
+---
 
+![Screenshot 2025-06-15 112916](https://github.com/user-attachments/assets/0f5c17b1-e684-4e99-a3ee-6f36041254c1)
+
+---
 Emotional Soundscapes
 To further enhance the atmosphere, I developed a music player integrated directly into the website. The selected pieces aim to reflect the emotional tone of each artwork, adding a layer of sensory engagement to the viewing experience.
 
@@ -16,10 +31,15 @@ To further enhance the atmosphere, I developed a music player integrated directl
 The website is built with semantic HTML elements, improving both accessibility and searchability. The colour palette is vivid and high-contrast to ensure visibility for a wide range of users.
 
 A fixed navigation menu appears at the top of every page. The menu contains animated buttons that respond to user actions by changing colour and size, making navigation intuitive and visually engaging.
+---
 
+![Screenshot 2025-06-15 112846](https://github.com/user-attachments/assets/4913b083-ff63-4407-a4a8-b99e308df21f)
 
+---
 
+![Screenshot 2025-06-15 112803](https://github.com/user-attachments/assets/c14dfda3-ea93-47e3-b04f-bbf7fb19a14b)
 
+---
 ## Technical Considerations
 To ensure optimal performance and broad compatibility:
 All images were resized and saved in PNG format instead of SVG, maintaining quality while supporting older browsers.

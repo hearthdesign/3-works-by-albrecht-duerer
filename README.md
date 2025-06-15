@@ -20,7 +20,6 @@ A fixed navigation menu appears at the top of every page. The menu contains anim
 
 <div align="center"> <img src="https://github.com/user-attachments/assets/0e71afc8-554c-4665-89eb-3044772bb8ee" width="70%"> </div>
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/b39a607d-5fb6-4f78-a05f-450749742339" width="70%"> </div>
 
 ## Technical Considerations
 To ensure optimal performance and broad compatibility:

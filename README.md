@@ -1,20 +1,24 @@
 # Three Works by Albrecht Dürer
-This website presents three engravings by the German Renaissance master Albrecht Dürer (1471–1528). Designed to engage audiences of all ages, the site offers an interactive, multimedia experience that brings these classic works to life.
 ---
+This website presents three engravings by the German Renaissance master Albrecht Dürer (1471–1528). Designed to engage audiences of all ages, the site offers an interactive, multimedia experience that brings these classic works to life.
 
+---
 ![Screenshot 2025-06-15 111436](https://github.com/user-attachments/assets/ea310cc0-deae-47ba-be4d-ce40fb4e82a9)
 
 ---
-##Instructions
+## Instructions
 ---
 
 ![Screenshot 2025-06-15 105910](https://github.com/user-attachments/assets/7fd38170-194c-45bc-8731-56a25a4e0eb3)
 
 ---
-## Interactive Colourization and Animation
+## Features
+---
+### Interactive Colourization and Animation
 To create a more immersive experience, I partially colourized one of the black-and-white engravings using Photoshop. I then incorporated HTML and CSS animations, primarily through the use of the :hover pseudo-class and manipulation of the z-axis.
 
 When users move their cursor over specific areas of the images, coloured versions of figures or accompanying text overlays appear—bringing new depth to the static artworks.
+
 ---
 
 ![Screenshot 2025-06-15 112937](https://github.com/user-attachments/assets/5e9163c1-9787-499a-a0a6-3cf416c2f9f6)
@@ -24,10 +28,12 @@ When users move their cursor over specific areas of the images, coloured version
 ![Screenshot 2025-06-15 112916](https://github.com/user-attachments/assets/0f5c17b1-e684-4e99-a3ee-6f36041254c1)
 
 ---
-Emotional Soundscapes
+### Emotional Soundscapes
 To further enhance the atmosphere, I developed a music player integrated directly into the website. The selected pieces aim to reflect the emotional tone of each artwork, adding a layer of sensory engagement to the viewing experience.
 
+---
 ## Accessibility and Design
+---
 The website is built with semantic HTML elements, improving both accessibility and searchability. The colour palette is vivid and high-contrast to ensure visibility for a wide range of users.
 
 A fixed navigation menu appears at the top of every page. The menu contains animated buttons that respond to user actions by changing colour and size, making navigation intuitive and visually engaging.
@@ -41,6 +47,7 @@ A fixed navigation menu appears at the top of every page. The menu contains anim
 
 ---
 ## Technical Considerations
+---
 To ensure optimal performance and broad compatibility:
 All images were resized and saved in PNG format instead of SVG, maintaining quality while supporting older browsers.
 
@@ -50,9 +57,73 @@ The layout employs flexbox, adaptive containers, and percentage-based dimensions
 
 <div align="center"> <img src="https://github.com/user-attachments/assets/f817d9b0-aa43-4184-b370-b845446876a2" width="70%"> </div>
 
+---
+## How to View and Deploy This HTML/CSS Project
+---
+### View the Live Site
+You can access the live version of this project via GitHub Pages:
+To deploy this site, use this link: https://hearthdesign.github.io/3-works-by-albrecht-duerer/
+
+No installation needed—just click and explore!
+
+### Clone and Run Locally
+If you'd like to run or modify the project on your own machine:
+
+ 1. Clone the Repository
+```bash
+git clone https://github.com/hearthdesign/3-works-by-albrecht-duerer.git
+```
+ 2. Navigate to the Project Folder
+
+```bash
+cd project-name
+```
+ 3. Open index.html in Your Browser
+You can double-click the index.html file or use a local server:
+
+```bash
+ # If you have Python installed
+python3 -m http.server
+```
+Then visit http://localhost:8000 in your browser.
+
+### Deploy Your Own Version on GitHub Pages
+If you want to fork and host your own version:
+
+ 1. Fork the Repository
+Click the Fork button at the top-right of the GitHub page.
+
+ 2. Enable GitHub Pages
+   - Go to your forked repo’s Settings > Pages
+   - Under Source, select the main branch and /root folder
+   - Click Save
+
+  3. Access Your Site
+GitHub will generate a link like: https://hearthdesign.github.io/3-works-by-albrecht-duerer/
+
+### Notes
+Make sure your project includes an index.html file at the root.
+
+All styles are loaded via relative paths, so the site works both locally and online.
+
+No JavaScript or build tools are required—just a browser!
+
+---
+## Testing
+---
+This project has been tested on
+
+<img src="assets/images/A_D_Monogram 2.png" alt="Monogram rapresenting the name of the artist (Albrecht Dürer)">
+
+Error: No p element in scope but a p end tag seen.
+
+
+---
 ## Conclusion
+---
 This project combines classic art with modern web technologies to offer a dynamic reinterpretation of Dürer's engravings. By integrating visual interaction, sound, and responsive design, it invites users to explore historical works in a contemporary and accessible way.
 
+---
 ## Disclaimer & Usage Conditions
 ---
 ### Music Usage
@@ -67,7 +138,7 @@ These modified images are shared for educational, non-commercial display and int
 
 ### Educational Intent
 This website was developed as an educational and creative project with the aim of introducing classical artworks to a broader audience through interactive design, music, and accessible commentary. No commercial activity is conducted through this platform.
----
+
 ### Main Works Referenced
 The following engravings by Albrecht Dürer were used and referenced in this project. Textes from the same pages were used as well. For further information, please see their respective entries on Wikipedia:
 

@@ -111,12 +111,27 @@ No JavaScript or build tools are required—just a browser!
 ---
 ## Testing
 ---
-This project has been tested on
+This project passed the test on:
+   - the HTML validator (http://validator.w3.org) with no error:
+   <img src="assets\images\HTML_validator_w3_org.png">
+   - the jigsaw validator
+   <img src="assets\images\CSS_validator_result.png">
+   <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="CSS ist valide!" />
+   <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS ist valide!" />
 
-<img src="assets/images/A_D_Monogram 2.png" alt="Monogram rapresenting the name of the artist (Albrecht Dürer)">
 
-Error: No p element in scope but a p end tag seen.
+### Fixes:
 
+Two errors have been encountered and adjusted on the html validator (at http://validator.w3.org):
+   1. Innegal spacing in an image name:
+   <img src="assets/images/A_D_Monogram 2.png" alt="Monogram rapresenting the name of the artist (Albrecht Dürer)">
+   2. Missed opening <p> tag.
+
+One error found and corrected on the CSS jigsaw validator (jigsaw.w3.org/css-validator):
+   - invalid property name (font-style instead of font-weight) has been fixed.
+
+#### Still to be fixed
+No Bug detected.
 
 ---
 ## Conclusion
@@ -154,13 +169,13 @@ https://www.metmuseum.org/art/collection/search/391259
 Knight, Death and the Devil
 Wikipedia: https://en.wikipedia.org/wiki/Knight,_Death_and_the_Devil
 
-the four Horsemen
+The four Horsemen
 https://www.metmuseum.org/art/collection/search/336215
 
-For the Monogram:
+The Monogram:
 https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Monogramm.png
 
-Fro the text on the Biographys page:
+The text on the Biographys page:
 https://www.metmuseum.org/essays/albrecht-durer-1471-1528?utm_source=chatgpt.com
 ---
 ---

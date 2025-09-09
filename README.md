@@ -113,9 +113,9 @@ No JavaScript or build tools are required—just a browser!
 ---
 This project passed the test on:
    - the HTML validator (http://validator.w3.org) with no error:
-   <img src="assets\images\HTML_validator_w3_org.png">
+   <img src="assets/images/html_validator_w3_org.png">
    - the jigsaw validator
-   <img src="assets\images\CSS_validator_result.png">
+   <img src="assets/images/css_validator_result.png">
    <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="CSS ist valide!" />
    <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS ist valide!" />
 
@@ -124,7 +124,7 @@ This project passed the test on:
 
 Two errors have been encountered and adjusted on the html validator (at http://validator.w3.org):
    1. Innegal spacing in an image name:
-   <img src="assets/images/A_D_Monogram 2.png" alt="Monogram rapresenting the name of the artist (Albrecht Dürer)">
+   <img src="assets/images/a_d_monogram 2.png" alt="Monogram rapresenting the name of the artist (Albrecht Dürer)">
    2. Missed opening <p> tag.
 
 One error found and corrected on the CSS jigsaw validator (jigsaw.w3.org/css-validator):

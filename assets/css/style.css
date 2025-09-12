@@ -463,9 +463,9 @@ footer h3 {
   background-color: #5e10ac;
   color: white;
   border: 2px solid rgb(255, 255, 255);
-  padding: 1rem;
+  padding: 0.4rem;
   border-radius: 50%;
-  font-size: 1.8rem;
+  font-size: 3rem;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -479,9 +479,9 @@ footer h3 {
   background-color: #fe3d02;
   color: rgb(37, 0, 63);
   border: 2px solid rgb(207, 206, 255);
-  padding: 1rem;
+  padding: 0.25rem;
   border-radius: 50%;
-  font-size: 1.5rem;
+  font-size: 3rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -494,15 +494,21 @@ footer h3 {
   background-color: #5c7203;
   color: rgb(82, 0, 35);
   border: 2px solid rgb(255, 216, 43);
-  padding: 1rem;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.6rem;
   border-radius: 50%;
-  font-size: 1.5rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .friendica-share-btn:hover {
   background-color: #0180e0;
+}
+
+.friendica_icon {
+    width: 40px;
+  height: 40px;
 }
 
 /* CONTACT FORM */
@@ -606,4 +612,28 @@ footer h3 {
   text-shadow: 1px 1px 2px #333;
   transition: background-color 0.3s ease-in;
   transform: scale(1.01);
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.social-icons a {
+  color: #0f172a; /* Slate-900 */
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #2563eb; /* Blue-600 */
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
 }

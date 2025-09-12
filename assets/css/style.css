@@ -1,3 +1,6 @@
+:root {
+  --fa-rotate-angle: 90deg;
+}
 
 /* Base font settings for the entire HTML document */
 html {

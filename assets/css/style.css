@@ -529,7 +529,7 @@ footer h3 {
   color: #033366;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  font-family: 'Georgia' Arial, sans-serif;
+  font-family: 'Georgia', Arial, sans-serif;
 }
 
 /* Labels in the form */
@@ -598,6 +598,6 @@ footer h3 {
   color: #eefefa;
   border: 1px solid #fe6a5d;
   text-shadow: 1px 1px 2px #333;
-  transition: background-color 0.6s ease-out, transform 0.3s;
+  transition: background-color 0.6s ease-out, transform 0.3s ease-out;
   transform: scale(1.01);
 }

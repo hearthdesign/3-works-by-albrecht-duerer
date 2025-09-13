@@ -32,7 +32,22 @@ When users move their cursor over specific areas of the images, coloured version
 To further enhance the atmosphere, I developed a music player integrated directly into the website. The selected pieces aim to reflect the emotional tone of each artwork, adding a layer of sensory engagement to the viewing experience.
 
 ---
-## Accessibility and Design
+### External Connections & Contact Form
+This project includes interactive elements that connect users with external platforms and provide a way to get in touch directly: 
+#### Social Media Links.
+ - The page features clickable icons that link to external social media profiles, such as Mastodon, Friendica and Pixelfed. NOTE: Pixelfed is still awaiting activation from the service provider. 
+ - These links open in a new tab and allow users to explore related content or follow the creator. 
+ - No personal data is collected through these links—they simply redirect to public profiles.
+
+#### Contact Form
+Users can fill out a simple contact form that includes:
+ - Name field
+ - Email field: for entering a valid email address
+ - Message field: for writing a custom message or inquiry
+The form is designed with accessibility and responsiveness in mind. It features contrast-rich colors for improved readability, a clearly defined layout with descriptive labels, and a simple, intuitive structure that guides users through the input process. The fields are generously spaced and styled for clarity, ensuring ease of use across devices and screen sizes. Responsive design principles allow the form to adapt seamlessly to mobile, tablet, and desktop environments, while semantic HTML elements and keyboard-friendly navigation enhance usability for all users, including those relying on assistive technologies.
+
+---
+## Accessibility
 ---
 The website is built with semantic HTML elements, improving both accessibility and searchability. The colour palette is vivid and high-contrast to ensure visibility for a wide range of users.
 
@@ -44,6 +59,11 @@ A fixed navigation menu appears at the top of every page. The menu contains anim
 ---
 
 ![Screenshot 2025-06-15 112803](https://github.com/user-attachments/assets/c14dfda3-ea93-47e3-b04f-bbf7fb19a14b)
+
+---
+## Design choices
+--- 
+The page is designed to showcase the works in the style of a museum or art gallery. To achieve this, the page is kept minimal, leaving plenty of space around the images to allow the viewer to focus on them. As the works are in shades of white and grey, the background colours are dark tones of green and blue, which aim to create a neutral yet elegant impression to complement these worthy artworks.
 
 ---
 ## Technical Considerations
@@ -58,7 +78,8 @@ The layout employs flexbox, adaptive containers, and percentage-based dimensions
 <div align="center"> <img src="https://github.com/user-attachments/assets/f817d9b0-aa43-4184-b370-b845446876a2" width="70%"> </div>
 
 ---
-## How to View and Deploy This HTML/CSS Project
+## DEPLOYMENT
+### How to View and Deploy This HTML/CSS Project
 ---
 ### View the Live Site
 You can access the live version of this project via GitHub Pages:
@@ -67,46 +88,42 @@ To deploy this site, use this link: https://hearthdesign.github.io/3-works-by-al
 No installation needed—just click and explore!
 
 ### Clone and Run Locally
-If you'd like to run or modify the project on your own machine:
+If you'd like to run the project on your own machine:
 
  1. Clone the Repository
 ```bash
 git clone https://github.com/hearthdesign/3-works-by-albrecht-duerer.git
 ```
- 2. Navigate to the Project Folder
-
+ 1. Navigate to the Project Folder
 ```bash
-cd project-name
+cd 3-works-by-albrecht-duerer
 ```
- 3. Open index.html in Your Browser
-You can double-click the index.html file or use a local server:
 
-```bash
- # If you have Python installed
-python3 -m http.server
+ 1. Open index.html in Your Browser
+ - You can double-click the index.html file
+ - Or use a local server (recommended for better compatibility)
+
+Using Python (if installed):
 ```
+python -m http.server
+```
+
 Then visit http://localhost:8000 in your browser.
 
 ### Deploy Your Own Version on GitHub Pages
+Deploy Your Own Version on GitHub Pages
 If you want to fork and host your own version:
 
- 1. Fork the Repository
-Click the Fork button at the top-right of the GitHub page.
+1. Fork the Repository 
+ - Click the Fork button at the top-right of the GitHub page.
 
- 2. Enable GitHub Pages
-   - Go to your forked repo’s Settings > Pages
-   - Under Source, select the main branch and /root folder
-   - Click Save
+2. Enable GitHub Pages
+ - Go to your forked repo’s Settings → Pages
+ - Under Source, select the main branch and / (root) folder
+ - Click Save
 
-  3. Access Your Site
-GitHub will generate a link like: https://hearthdesign.github.io/3-works-by-albrecht-duerer/
-
-### Notes
-Make sure your project includes an index.html file at the root.
-
-All styles are loaded via relative paths, so the site works both locally and online.
-
-No JavaScript or build tools are required—just a browser!
+3. Access Your Site GitHub will generate a link like: 
+https://yourusername.github.io/3-works-by-albrecht-duerer/
 
 ---
 ## Testing
@@ -115,11 +132,21 @@ This project passed the test on:
    - the HTML validator (http://validator.w3.org) with no error:
    <img src="assets/images/html_validator_w3_org.png">
    - the jigsaw validator
-   <img src="assets/images/css_validator_result.png">
-   <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="CSS ist valide!" />
-   <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS ist valide!" />
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="CSS ist valide!" />
+    </a>
+</p>
 
-
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="CSS ist valide!" />
+    </a>
+</p>
 ### Fixes:
 
 Two errors have been encountered and adjusted on the html validator (at http://validator.w3.org):

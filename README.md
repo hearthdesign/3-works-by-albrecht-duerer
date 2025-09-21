@@ -140,6 +140,11 @@ https://yourusername.github.io/3-works-by-albrecht-duerer/
 ---
 ## Testing
 ---
+The project has been tested on 9 different devices and 9 different browsers at [browserstack](https://www.browserstack.com/)
+
+<img src="assets/images/browser_tests.png">
+(not included in the picture, manually on the device Samsung S24 in the "Brave" browser)
+
 This project passed the test on:
    - the HTML validator (http://validator.w3.org) with no error:
    <img src="assets/images/html_validator_w3_org.png">
@@ -159,6 +164,11 @@ This project passed the test on:
             alt="CSS ist valide!" />
     </a>
 </p>
+
+Manually tested using the Google Developers tool and no errors were reported.
+
+<img src="assets\images\google_dev_tool.png">
+
 ### Fixes:
 
 Two errors have been encountered and adjusted on the html validator (at http://validator.w3.org):

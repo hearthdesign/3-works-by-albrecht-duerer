@@ -11,13 +11,25 @@ This website presents three engravings by the German Renaissance master Albrecht
 
 ![Screenshot 2025-06-15 105910](https://github.com/user-attachments/assets/7fd38170-194c-45bc-8731-56a25a4e0eb3)
 
+
+User Stories:
+
+- As an art student, or a casual visitor, I can appreciate artist's work
+  in an interactive way.
+- As an art teacher I can use the representations to introduce students 
+  to Renaissance symbolism.
+- As a developer, I want to present content in an accessible and responsive way.
+- As a designer, I want to enhance the engagement with antique prints.
+
 ---
 ## Features
 ---
 ### Interactive Colourization and Animation
-To create a more immersive experience, I partially colourized one of the black-and-white engravings using Photoshop. I then incorporated HTML and CSS animations, primarily through the use of the :hover pseudo-class and manipulation of the z-axis.
+To create a more immersive experience, I used Photoshop to partially colourise some details of the black-and-white engravings. I then incorporated HTML and CSS animations, primarily using of the :hover pseudo-class and manipulating of the z-axis.
 
-When users move their cursor over specific areas of the images, coloured versions of figures or accompanying text overlays appear—bringing new depth to the static artworks.
+When users move their cursor over specific areas of the image, coloured versions of some figures and  accompanying text overlays appears, bringing new depth to the static artwork.
+
+The colourization separates individual fragments of the detailed artwork from the rest, accentuating both the element and its background. This playful effect encourages userd to spend time on the image, thereby increasing the liklyhood that they will notice other elements of the composition.
 
 ---
 
@@ -159,6 +171,12 @@ One error found and corrected on the CSS jigsaw validator (jigsaw.w3.org/css-val
 
 #### Still to be fixed
 No Bug detected.
+
+---
+## Future developments:
+
+ - include the addition of more colourised images and texts.
+ - Include images in the backgrounds of the 'Biography', 'Contact' and 'Copyright' pages, as well as  adding some interactive elements.
 
 ---
 ## Conclusion
